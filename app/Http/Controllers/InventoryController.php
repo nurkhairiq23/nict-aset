@@ -16,7 +16,7 @@ class InventoryController extends Controller
     {
         $inventory = DB::table('inventory')->join('jenis_barang', function ($join) {
             $join->on('inventory.id_jenis_barang', '=', 'jenis_barang.id_jenis_barang');
-        })->paginate(2);
+        })->paginate(5);
         return view('inventory.inventory', compact('inventory'));
     }
 

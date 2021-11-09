@@ -3,7 +3,7 @@
 @section('content')
 
     <div class="section-header">
-        <h1>Data Inventaris</h1>
+        <h1>Data Inventory</h1>
     </div>
     <div class="section-body">
         <div class="col-12 col-md-12 col-lg-12">

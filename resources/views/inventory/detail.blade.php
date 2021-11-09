@@ -14,7 +14,7 @@
         <div class="card-body">
             <div class="btn-group mb-3" role="group" aria-label="Basic example">
                 <a href="{{route('inventory.edit', $inventory->id_inventory)}}" class="btn btn-warning">Ubah Data</a>
-                <a href="#" class="btn btn-print">Cetak Data</a>
+                {{-- <a href="#" class="btn btn-print">Cetak Data</a> --}}
             </div>
             <div class="row">
                 <div class="col-12 col-sm-6 col-lg-6">

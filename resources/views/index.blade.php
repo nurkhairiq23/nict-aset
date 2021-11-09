@@ -3,12 +3,12 @@
 @section('content')
 
     <div class="section-header">
-        <h1>Dashboard</h1>
+        <h1 style="text-align: center; color:black;">DASHBOARD BARANG MILIK NEGARA NICT</h1>
     </div>
     <div class="section-body">
         <div class="card">
             <div class="card-body">
-                <h4 style="text-align: center; color:black;">DASHBOARD BARANG MILIK NEGARA NICT</h4>
+                <h4 style="text-align: center; color:black;">Aset Inventaris BMN NICT</h4>
             
                 <div class="row">
                     <div class="col-md-4">
@@ -44,6 +44,23 @@
                         </div> 
                     </div>
                 {{-- </div> --}}
+                </div>
+            </div>
+            <div class="card-body">
+                <h4 style="text-align: center; color:black;">Aset Inventory BMN NICT</h4>
+            
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+                        <div class="card-header">
+                            <h4>Jumlah Total Aset Inventory : 70</h4>
+                        </div>
+                        {{-- <div class="card-body"><div class="chartjs-size-monitor" style="position: absolute; inset: 0px; overflow: hidden; pointer-events: none; visibility: hidden; z-index: -1;"><div class="chartjs-size-monitor-expand" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:1000000px;height:1000000px;left:0;top:0"></div></div><div class="chartjs-size-monitor-shrink" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1;"><div style="position:absolute;width:200%;height:200%;left:0; top:0"></div></div></div>
+                            <canvas id="myChart4" width="365" height="182" class="chartjs-render-monitor" style="display: block; width: 365px; height: 182px;"></canvas>
+                        </div> --}}
+                        </div> 
+                    </div>
+                
                 </div>
             </div>
         </div>
